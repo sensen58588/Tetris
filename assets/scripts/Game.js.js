@@ -141,7 +141,7 @@ cc.Class({
     getShapeCoords() {
 
         // 随机获取一种形状
-        let shapeArray = ['squareShape']//, 'lineShape', 'tShape', 'zShape', 'zShapeMirror', 'lShape', 'lShapeMirror'];
+        let shapeArray = ['squareShape','lineShape', 'tShape', 'zShape', 'zShapeMirror', 'lShape', 'lShapeMirror'];
         this.shape = shapeArray[Math.floor(Math.random()*shapeArray.length)];
 
         // 随机获取该形状的某种形态，形态的索引保存在this.num中
